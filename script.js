@@ -1,6 +1,6 @@
 const games = [
   { title: "Minecraft", background: "minecraft.jpg", slogan: "Build, explore, survive—your adventure awaits!" },
-  { title: "Halo 3", background: "halo3.jpg", slogan: "Finish the Fight" },
+  { title: "Halo 3", background: "./wallpapers/halo3.jpg", slogan: "Finish the Fight" },
   { title: "DOOM", background: "DOOM.jpg", slogan: "Rip & Tear, until it is done." },
   { title: "Skyrim", background: "skyrim.jpg", slogan: "You are... Dragonborn!" },
   { title: "The Elder Scrolls IV", background: "elderscrollsoblivionremaster.jpg", slogan: "Close shut the Jaws... of Oblivion." },
