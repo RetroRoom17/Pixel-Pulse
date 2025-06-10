@@ -1,13 +1,13 @@
 const games = [
-  { title: "Minecraft", background: "minecraft.jpg", slogan: "Build, explore, survive—your adventure awaits!" },
-  { title: "Halo 3", background: "/wallpapers/halo3.jpg", slogan: "Finish the Fight" },
-  { title: "DOOM", background: "DOOM.jpg", slogan: "Rip & Tear, until it is done." },
-  { title: "Skyrim", background: "skyrim.jpg", slogan: "You are... Dragonborn!" },
-  { title: "The Elder Scrolls IV", background: "elderscrollsoblivionremaster.jpg", slogan: "Close shut the Jaws... of Oblivion." },
-  { title: "Tron Evolution", background: "tronevolution.jpg", slogan: "Welcome to The Grid, Program." },
-  { title: "Devil May Cry 5", background: "dmc5.jpg", slogan: "I Am The Storm That Is Approaching" },
-  { title: "DOOM 2016", background: "DOOM2016.jpg", slogan: "Fight Like Hell" },
-  { title: "Halo: Combat Evolved", background: "haloce.jpg", slogan: "Combat has Evolved." }
+  { title: "Minecraft", background: "wallpapers/minecraft.jpg", slogan: "Build, explore, survive—your adventure awaits!" },
+  { title: "Halo 3", background: "wallpapers/halo3.jpg", slogan: "Finish the Fight" },
+  { title: "DOOM", background: "wallpapers/DOOM.jpg", slogan: "Rip & Tear, until it is done." },
+  { title: "Skyrim", background: "wallpapers/skyrim.jpg", slogan: "You are... Dragonborn!" },
+  { title: "The Elder Scrolls IV", background: "wallpapers/elderscrollsoblivionremaster.jpg", slogan: "Close shut the Jaws... of Oblivion." },
+  { title: "Tron Evolution", background: "wallpapers/tronevolution.jpg", slogan: "Welcome to The Grid, Program." },
+  { title: "Devil May Cry 5", background: "wallpapers/dmc5.jpg", slogan: "I Am The Storm That Is Approaching" },
+  { title: "DOOM 2016", background: "wallpapers/DOOM2016.jpg", slogan: "Fight Like Hell" },
+  { title: "Halo: Combat Evolved", background: "wallpapers/haloce.jpg", slogan: "Combat has Evolved." }
 ];
 
 function getGame() {
