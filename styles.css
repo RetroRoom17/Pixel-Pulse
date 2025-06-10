@@ -1,0 +1,105 @@
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background 0.5s ease-in-out;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.search-container {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  margin-top: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select,
+input,
+button {
+  font-size: 1em;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+select {
+  background: #222;
+  color: white;
+  margin-right: 20px;
+}
+
+input {
+  width: 150px;
+  background: #222;
+  color: white;
+}
+
+button {
+  background: #444;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer styling and button inside it */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.7em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#toggle-mode-footer {
+    position: fixed;
+  padding: 5px 10px;
+  right: 10px;
+  font-size: 0.9em;
+}
